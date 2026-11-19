@@ -13,6 +13,7 @@
   --line: rgba(255, 255, 255, .09);
   --accent: #fff
 }
+
 html {
   scroll-behavior: smooth
 }
@@ -82,22 +83,20 @@ a {
   color: #fff
 }
 
-.bottom-edge:hover {
-  border-bottom: solid 1px white;
-}
-
-js .nav-cta {
+.nav-cta {
   border: 1px solid var(--line);
   padding: 10px 16px;
   border-radius: 999px;
   color: white;
-  transition: transform ease 0.5s;
+  transition: ease 0.5s;
+  border-radius: 999px;
+
 
 }
 
 .nav-cta:hover {
   transform: scale(1.03);
-  border: solid 1px white;
+  border: solid 1px white
 }
 
 .menu-btn {
@@ -113,7 +112,8 @@ js .nav-cta {
   width: 22px;
   height: 1px;
   background: #fff;
-  margin: 6px auto
+  margin: 6px auto;
+
 }
 
 .hero {
