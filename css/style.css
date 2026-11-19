@@ -13,7 +13,6 @@
   --line: rgba(255, 255, 255, .09);
   --accent: #fff
 }
-
 html {
   scroll-behavior: smooth
 }
@@ -82,12 +81,12 @@ a {
 .nav a:hover {
   color: #fff
 }
-.bottom-edge:hover{
+
+.bottom-edge:hover {
   border-bottom: solid 1px white;
 }
 
-js
-.nav-cta {
+js .nav-cta {
   border: 1px solid var(--line);
   padding: 10px 16px;
   border-radius: 999px;
@@ -272,7 +271,7 @@ h1 strong {
 
 .code-card {
   position: relative;
-  width: min(440px, 100%);
+  width: min(440px, 90%);
   background: rgba(16, 18, 23, .88);
   border: 1px solid var(--line);
   border-radius: 18px;
@@ -673,9 +672,11 @@ pre {
 .html {
   transition: 1s ease;
 }
-.border:hover{
+
+.border:hover {
   border: solid 1px white;
 }
+
 .node:hover {
   color: white;
   background-color: #3c823b;
@@ -699,6 +700,20 @@ pre {
 .js:hover {
   color: black;
   background-color: #efd81d;
+}
+
+.tech-user {
+  padding: 10px 0;
+
+}
+
+.exemple-project {
+  text-align: center;
+}
+
+.video-play {
+  width: 97%;
+  border-radius: 10px;
 }
 
 .process {
@@ -787,7 +802,7 @@ pre {
   display: flex;
   align-items: center;
   justify-content: center;
- 
+
 
 
 }
@@ -960,7 +975,7 @@ pre {
   }
 
   .code-card {
-    width: min(430px, 92vw)
+    width: min(400px, 87vw)
   }
 
   .service-grid {
